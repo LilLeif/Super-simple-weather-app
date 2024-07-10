@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background: #5dbfdd;
+}
+
+.main-heading {
+    position: relative;
+    background-image: linear-gradient(to right ,#5f5f5f, #5dbfdd);
+    width: 100%;
+    text-align: center;
+
+}
+
+.main-heading h1{
+    margin: auto;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: xx-large;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    font-size: 75px;
+}
+
+.autocomplete {
+    position: relative;
+    background: #5dbfdd;
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+::placeholder {
+    color: black;
+    opacity: 0.6;
+    font-family: "Roboto", sans-serif;
+}
+
+.autocomplete input {
+    background: #a7fffb;
+    color: black;
+    border: darkgray solid 2px;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    padding: 15px;
+}
+
+.autocomplete button {
+    background: #a7fffb;
+    border: darkgray solid 2px;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    padding: 20px;
+}
+
+.autocomplete button:hover{
+    background: #82d5d1;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.main-heading img{
+    position: absolute;
+    transform: translateY(-50%);
+    width: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: auto;
+}
+.sun{
+    right: 20px;
+}
+
+.storm{
+    left: 20px;
+}
+
+#city-heading{
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-top: 0;
+    font-size: 40px;
+    font-family: "Oswald", sans-serif;
+    background: #5dbfdd;
+    padding: 20px;
+    margin: 0;
+}
+.initial-city {
+    visibility: hidden;
+}
+
+
+
+#info-box{
+    position: absolute;
+    width: 100%;
+    background: #5dbfdd;
+    display: flex;
+}
+
+.info{
+    width: 20%;
+    text-align: center;
+    margin: 0;
+}
+
+.info img{
+    position: relative;
+    width: 20%;
+    height: auto;
+    display: inline-block;
+    padding: 4px 40px;
+    margin: 0;
+
+}
+
+.info h3{
+    position: relative;
+    margin: 0;
+    padding: 5px;
+    border-left: whitesmoke solid 2px;
+    border-right: whitesmoke solid 2px;
+    border-top: whitesmoke solid 2px;
+}

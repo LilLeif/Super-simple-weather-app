@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="main-heading">
+        <img src="sun2.png" alt="" class="sun">
+        <h1>Weather app</h1>
+        <img src="storm.png" alt="" class="storm">
+    </div>
+        
+
+    
+    <div class="autocomplete" id="autocomplete-box">
+        
+        <input type="text" id="city-input" placeholder="Type your city">
+       <button id="search-button">Search</button>
+    </div>
+        
+    <h2 id="city-heading">City name</h2>
+    
+
+    <div id="info-box">
+        <div id="temp-box" class="info">
+            <img src="thermometer.png" alt="">
+            <h3 id="temp-text">Temperature</h3>
+        </div>
+
+        <div id="uv-box" class="info">
+            <img src="uv.png" alt="">
+            <h3 id="uv-text">UV index:</h3>
+        </div>
+
+        <div id="wind-direction" class="info">
+            <img src="windDirection.png" alt="">
+            <h3 id="wind-dir-text">Wind direction</h3>
+        </div>
+
+        <div id="wind-box" class="info">
+            <img src="wind.png" alt="">
+            <h3 id="wind-text">Wind speed</h3>
+
+        </div>
+        <div id="description" class="info">
+            <img src="desc2.png" alt="" id="desc-icon">
+            <h3 id="description-text">Description</h3>
+        </div>
+    </div>
+</body>
+</html>
